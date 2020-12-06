@@ -1,0 +1,260 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFF16F;
+    margin: 0;
+    font-weight: bold;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #FFF16F;
+    text-align: center;
+
+}
+
+h1 {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    
+
+}
+
+h2{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: center;
+    padding: 2%;
+    text-transform: uppercase;
+}
+
+main{
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    
+}
+
+footer{
+    background-color: #FFF16F;
+    padding-top: 2%;
+}
+
+footer p {
+    text-align: center;
+}
+
+/*contrast-contents resize*/
+
+@media (max-width: 560px) {
+.contrast-contents {
+
+    align-items: center;
+    text-align: justify;
+
+}  .contrast-contents > img {
+
+    width: 80%;
+    padding: 10%;
+    margin-left: 5%;
+
+}
+}
+
+@media (max-width: 700px) {
+    .contrast-contents {
+    
+        align-items: center;
+        text-align: justify;
+    
+    }  .contrast-contents > img {
+    
+        width: 70%;
+        padding-left: 10%;
+        padding-bottom: 10%;
+        padding-right: 10%;
+        margin-left: 5%;
+    }
+}
+
+@media (min-width: 701px) {
+.contrast-contents {
+    display: flex;
+}
+     .contrast-contents > img {
+    width: 30%;
+    height: 40%;
+    margin-left: 5%;
+    padding: 0;
+     }  
+}
+
+/* repetition-contents resize */
+
+@media (max-width: 560px) {
+    .repetition-contents {
+    
+        align-items: center;
+        text-align: justify;
+}   
+    .repetition-contents > img {
+
+        width: 80%;
+        padding: 10%;
+        margin-left: 5%;
+        
+    
+    }
+}
+    
+    @media (max-width: 700px) {
+        .repetition-contents {
+        
+            align-items: center;
+            text-align: justify;
+        
+        }  .repetition-contents > img {
+        
+            width: 70%;
+            padding: 10%;
+            margin-left: 5%;
+        }
+    }
+    
+    @media (min-width: 701px) {
+    .repetition-contents {
+        display: flex;
+        flex-flow: row-reverse;
+    }
+         .repetition-contents > img {
+        width: 30%;
+        height: 40%;
+        margin-right: 5%;
+        padding: 0;
+         }  
+    }
+
+
+/* aligntmet-contents resize */
+
+@media (max-width: 560px) {
+    .aligntmet-contents {
+    
+        align-items: center;
+        text-align: justify;
+        
+    
+    }  .aligntmet-contents > img {
+    
+        width: 80%;
+        padding: 10%;
+        margin-left: 5%;
+    
+    }
+    }
+    
+    @media (max-width: 700px) {
+        .aligntmet-contents {
+        
+            align-items: center;
+            text-align: justify;
+        
+        }  .aligntmet-contents > img {
+        
+            width: 70%;
+            padding: 10%;
+            margin-left: 5%;
+        }
+    }
+    
+    @media (min-width: 701px) {
+    .aligntmet-contents {
+        display: flex;
+        
+        
+    }
+         .aligntmet-contents > img {
+        width: 30%;
+        height: 40%;
+        margin-left: 5%;
+        padding: 0;
+        
+         }  
+    }
+/*proximity-contents resize */
+
+@media (max-width: 560px) {
+    .proximity-contents {
+    
+        align-items: center;
+        text-align: justify;
+    
+    }  .proximity-contents> img {
+        
+        width: 80%;
+        padding: 10%;
+        margin-left: 5%;
+    
+    }
+}
+    
+    @media (max-width: 700px) {
+        .proximity-contents {
+        
+            align-items: center;
+            text-align: justify;
+        
+        }  .proximity-contents > img {
+        
+            width: 70%;
+            padding: 10%;
+            margin-left: 5%;
+        }
+    }
+    
+    @media (min-width: 701px) {
+    .proximity-contents {
+        display: flex;
+        flex-flow: row-reverse;
+    }
+         .proximity-contents > img {
+        width: 30%;
+        height: 40%;
+        margin-right: 5%;
+        padding: 0;
+         }  
+    }
+
+
+
+
+
+p {
+
+    margin-top: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    line-height: 1.4;
+    text-align: justify;
+    padding: 0;
+
+}
+
+/*Contents Area
+#contrast-contents,
+#repetition-contents,
+#aligntmet-contents,
+#proximity-contents{
+    display: flex;
+}
+*/
